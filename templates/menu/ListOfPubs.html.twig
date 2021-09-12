@@ -1,0 +1,26 @@
+{# templates/home/ListOfPubs.html.twig #}
+
+
+<h1>Seznam restaurací</h1>
+<table id="pubTable">
+{% for pub in pubs %}
+    <tr><td>
+      <div id="{{ pub.id }}" onclick="showPub({{ pub.id }})">
+        <h3>{{ pub.name }}</h3>
+        <b>{{ pub.address }}kk</b>
+      </div>
+    </td></tr>
+{% endfor %}
+</table>
+
+
+<script>
+  function showPub(pubID) {
+    console.log(pubID);
+  link = "{{ path('pub', {id: "pubID"}) }}";
+
+  link = link.replace("pubID", pubID);
+  window.location.href = link;
+
+  }
+</script>

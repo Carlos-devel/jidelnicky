@@ -1,0 +1,33 @@
+Dobrý den,
+
+Zde je testovací úloha pro backend vývojáře (frontend zatím nebudeme řešit):
+
+Připravte jednoduchou aplikaci, která zobrazí přehled denního menu vybraných restaurací.
+
+    Jídelníčky získáte z Apiary.io na https://idcrestaurant.docs.apiary.io/
+    Na jedné stránce zobrazte přehled restaurací včetně základních informací. Po prokliku na další stránku zobrazte menu dané restaurace.
+    Vzhled není důležitý, pouze musí být stránka responzivní, aby se snadno zobrazila jak na monitoru, tak na mobilu.
+
+Dále lze aplikaci rozšířit o pravidelné zasílání jídelních lístků na registrované e-maily:
+
+    Připravte formulář pro zadání e-mailové adresy a seznam restaurací
+    Připravte službu, která sestaví uložené jídelníčky a rozešle na registrované e-maily. Služba bude spouštěna z cronu.
+
+A ještě pár poznámek k odevzdání:
+
+    Stanovte si nějaký čas, který chcete úloze věnovat a který doporučuji nepřekračovat (max do 14 dní). Pokud v daném čase úlohu nestihnete, nevadí, i tak ji odevzdejte.
+    Úlohu uložte do některé ze služeb dle vašich preferencí (GitHub, GitLab, Bitbucket) a zašlete odkaz.
+    Využít můžete libovolnou technologii, preferuji Symfony, Nette, případně čisté PHP.
+    Pokud bude aplikace pokryta nějakými testy, bude to určitě bonus navíc.
+
+
+
+------------------------------------------------------------------------------------------------------
+
+poznamky. je treba udelat dva mangerz pro dotahovani hospod a pro dotahovani menu hospod. tz bz pak melz teoreticky spolupracovat i s DB.
+
+na vypisy hodit datatables.
+
+GPS a adresa na prehledove tabulce do bubliny.
+
+pripravit pro rpipadnz obrazek.
